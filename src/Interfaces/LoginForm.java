@@ -64,7 +64,6 @@ public class LoginForm extends javax.swing.JFrame {
                             // If no matching user found
                             JOptionPane.showMessageDialog(null, "Invalid username or password.");
                         }
-
                         // Close resources
                         rs.close();
                         ps.close();
